@@ -133,6 +133,11 @@ body {
     background-image: url(images/ctaimg.jpg);
     background-position: center;
     background-size: cover;
+    margin: 100px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
   }
   
   /* Footer Section */
