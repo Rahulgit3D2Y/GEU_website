@@ -1,0 +1,146 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding-top: 0% ;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  .title
+  {
+    position: relative;
+    top:100px;
+  }
+  
+  .navbar {
+    padding: 0 0 0rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 10px ;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/geuHome.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding:  0% 0% 30% 0%;
+  }
+  .testimonial-image{
+    width: 10%;
+    height: 100px;
+  }
+  #title .container-fluid {
+    padding: 0% 3%;
+  }
+  
+ .d-flex>.border
+ {
+  background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+ }
+ .d-flex>.border:hover
+ {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+ }
+
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  /* CTA Section */
+  #cta
+  {
+    background-image: url(images/ctaimg.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  
+  
