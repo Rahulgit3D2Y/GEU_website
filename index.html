@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>GEUMCA</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
   <!-- owl-carousel css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- owl-carousel theme css -->
@@ -32,7 +33,7 @@
         <!-- Just an image -->
       <nav class="navbar navbar-light ">
           <a class="navbar-brand" href="#">
-              <img src="images/finallogo.png" width="300" height="150" alt="">
+              <img src="images/finallogo.png"class="logo" alt="">
           </a>
      </nav>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
@@ -77,7 +78,7 @@
       <div class="container-fluid title">
         <div class="row">
             <div class="col-lg-12 text-center ">
-                <h1 class="text-center fw-bold display-1 mb-5">Welcome Folks!</h1>
+                <h1 class="text-center fw-bold display-4 mb-5">Welcome Folks!</h1>
             </div>
             <div class="col-lg-12 text-center ">
                 <p class="font-weight-bold text-light">Department Of Computer Applications</p>
@@ -96,14 +97,8 @@
   </section>
 
   <!--images Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    </ol>
+  <div id="carouselExampleIndicators" class="carousel slide"data-interval="3000" data-ride="carousel">
+    
     <div class="carousel-inner my-5">
       <div class="carousel-item active">
         <img class="d-block w-100" src="https://source.unsplash.com/1200x800/?city" alt="First slide">
@@ -167,12 +162,12 @@
   <!--carousel Career opportunity -->
   <div class="row">
     <div class="col-lg-12">
-      <h1 class="text-center fw-bold display-2 mb-5">Career opportunity</h1>
+      <h1 class="text-center fw-bold display-3 mb-5">Career opportunity</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quaerat?</p>
     </div>
   </div>
 
-  <div class="container-fluid my-5">
+  <div class="container-fluid my-5 ">
     <div class="row">
         <div class="col-12 m-auto">
             <div class="owl-carousel owl-theme">
@@ -288,6 +283,7 @@
           loop: true,
           margin: 15,
           nav: true,
+          autoplay:true,
           responsive: {
               0: {
                   items: 1

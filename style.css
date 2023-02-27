@@ -24,11 +24,19 @@ body {
     font-size: 3rem;
     line-height: 1.5;
   }
+  .logo
+  {
+    width: 300px;
+    height: auto;
+    position: relative;
+    right: 40px;
+  }
+  /* Container navbar */
   
-  /* Containers */
-  
-  .container-fluid{
-    padding-top: 0% ;
+  .container-fluid>.navbar
+  {
+    position: relative;
+    bottom: 40px;
   }
   
   /* Sections */
@@ -109,7 +117,7 @@ p{
   }
   
   .nav-item {
-    padding: 10px ;
+    padding: 5px ;
   }
   
   .nav-link {
