@@ -133,12 +133,16 @@ p{
   
   /* Title Section */
   
-  #title {
+  #title,#sub-title {
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/geuHome.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     padding:  0% 0% 30% 0%;
+  }
+  #sub-title
+  {
+    padding: 0 0 8% 0;
   }
   .testimonial-image{
     width: 10%;
