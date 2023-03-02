@@ -337,3 +337,19 @@ strong
 {
   text-align: left;
 }
+
+/* Gallery */
+
+.modal-body>button
+{
+  display:none;
+}
+.owl-nav span
+{
+  display: none;
+}
+/* img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+} */
