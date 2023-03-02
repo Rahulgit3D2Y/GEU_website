@@ -319,7 +319,6 @@ p{
 
 
 .po-col{
-  flex-basis: 48%;
   padding: 30px 2px;
   text-align: center;
 }
@@ -327,5 +326,14 @@ p{
   padding-top: 0;
 }
 .po-col p{
-  padding: 15px 0 25px;
+  padding: 15px 0 25px ;
+}
+strong
+{
+  font-weight: bold;
+  font-size: large;
+}
+.list
+{
+  text-align: left;
 }
