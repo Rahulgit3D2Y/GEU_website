@@ -347,12 +347,40 @@ strong
 {
   display:none;
 }
-.owl-nav span
-{
-  display: none;
-}
 /* img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 } */
+
+.owl-nav span
+{
+  display: none;
+}
+
+
+/* Feedback */
+.page-item>a
+{
+  border:none;
+  color: red;
+}
+@media (width<800px) {
+  .page-item>a
+{
+  width: 95px;
+}
+}
+.page-item>a:hover
+{
+  background-color: red;
+  color: white;
+  border:none;
+}
+.page-item>a:focus
+{
+  background-color: red;
+  color: white;
+  box-shadow: red 1px 1px 1px 1px;
+  border:none;
+}
