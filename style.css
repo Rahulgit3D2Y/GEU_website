@@ -240,6 +240,7 @@ p{
   
 .col div p{
   padding: 0;
+  text-align: left;
 }
 .col div h5{
   font-size: 30px;
@@ -260,6 +261,7 @@ p{
   text-decoration: none;
   color: #777;
 }
+
 
 /* about us */
 .about-us{
@@ -301,6 +303,7 @@ p{
   border: 1px solid #f44336;
   background: #f44336;
   color: #fff;
+  transition: .5s ease-in-out;
 }
 .hero-btn.red-btn::after{
   background: #f44336;
