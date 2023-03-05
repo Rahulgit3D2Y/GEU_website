@@ -384,3 +384,12 @@ strong
   box-shadow: red 1px 1px 1px 1px;
   border:none;
 }
+
+/* feedback notices */
+
+@media (width<800px) {
+  
+  #pdf-object{
+    width: 450px;
+  }
+}
