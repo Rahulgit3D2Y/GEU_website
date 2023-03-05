@@ -105,85 +105,13 @@
     </div>
 
     <br>
-    <object id="pdf-object" width="800" height="500"></object>
+    <object data=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" 
+                width="800" 
+                height="500"> 
+        </object>
 
-    <script>
-      // Define default headings and circular information for each PDF file
-      const defaultInfo = {
-        'fees.pdf': {
-          heading: 'Fees Notice',
-          circularNumber: '12345',
-          circularDate: '01/03/2023'
-        },
-        'holiday.pdf': {
-          heading: 'Holiday Notice',
-          circularNumber: '67890',
-          circularDate: '02/03/2023'
-        }
-        // Add more PDF files and default information as needed
-      };
-  
-      // Get the value of the 'pdf' query parameter from the URL
-      const urlParams = new URLSearchParams(window.location.search);
-      const pdfName = urlParams.get('pdf');
-  
-      if (pdfName) {
-        // If a 'pdf' query parameter is present, load the PDF
-        const pdfObject = document.getElementById('pdf-object');
-        pdfObject.data = pdfName;
-  
-        // Get the value of the 'heading', 'circularNumber', and 'circularDate' query parameters from the URL
-        const info = urlParams.getAll(['heading', 'circularNumber', 'circularDate']);
-        const headingText = info[0];
-        const circularNumberText = info[1];
-        const circularDateText = info[2];
-  
-        // Set the heading and circular information to the default values for the PDF file
-        const defaultInfoObj = defaultInfo[pdfName];
-        const heading = document.getElementById('pdf-heading');
-        const circularNumber = document.getElementById('circular-number');
-        const circularDate = document.getElementById('circular-date');
-        heading.innerHTML = defaultInfoObj.heading;
-        circularNumber.innerHTML = defaultInfoObj.circularNumber;
-        circularDate.innerHTML = defaultInfoObj.circularDate;
-  
-        if (headingText) {
-          // If a 'heading' query parameter is present, update the heading
-          heading.innerHTML = headingText;
-        }
-        if (circularNumberText) {
-          // If a 'circularNumber' query parameter is present, update the circular number
-          circularNumber.innerHTML = circularNumberText;
-        }
-        if (circularDateText) {
-          // If a 'circularDate' query parameter is present, update the circular date
-          circularDate.innerHTML = circularDateText;
-        }
-      }
-  
-      function loadPdf(pdfUrl, infoObj) {
-        // Update the object element with the new PDF
-        const pdfObject = document.getElementById('pdf-object');
-        pdfObject.data = pdfUrl;
-  
-        // Update the heading and circular information with the new text
-        const heading = document.getElementById('pdf-heading');
-        const circularNumber = document.getElementById('circular-number');
-        const circularDate = document.getElementById('circular-date');
-        heading.innerHTML = infoObj.heading;
-        circularNumber.innerHTML = infoObj.circularNumber;
-        circularDate.innerHTML = infoObj.circularDate;
-  
-        // Update the URL with the new query parameters
-        const urlParams = new URLSearchParams();
-        urlParams.set('pdf', pdfUrl);
-        urlParams.set('heading', metadata.heading);
-        urlParams.set('circular', metadata.circularNumber);
-        urlParams.set('circularDate', metadata.circularDate);
-        const newUrl = window.location.pathname + '?' + urlParams.toString();
-        window.history.pushState({path:newUrl}, '', newUrl);
-      }
-    </script>
+
 
 
   <!-- Footer -->
