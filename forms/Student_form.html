@@ -22,17 +22,18 @@
       <div class="form-group">
         <div class="form-group col-md-10">
           <label for="academic">Academic Year: </label>
-          <input type="number" class="form-control" placeholder="20XX">
+          <input type="number" class="form-control" placeholder="20XX" maxlength="4" min="2018">
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-10">
-          <label for="program">Name of the Program: </label><br>
-          <label for="option1"><input type="radio" name="option" id="option1">B.Tech</label><br>
-          <label for="option2"><input type="radio" name="option" id="option2">M.Tech</label><br>
-          <label for="option3"><input type="radio" name="option" id="option3">Ph.D</label><br>
+          <label for="stu_program">Name of the Program: </label><br>
+          <label for="btech"><input type="radio" name="stu_program" id="btech" value="B.Tech">B.Tech</label><br>
+          <label for="mtech"><input type="radio" name="stu_program" id="mtech" value="M.Tech">M.Tech</label><br>
+          <label for="phd"><input type="radio" name="stu_program" id="phd" value="Ph.D">Ph.D</label><br>
         </div>
       </div>
+      
       <div class="form-group">
         <div class="form-group col-md-6">
           <label for="Semester">Semester: </label>
@@ -57,7 +58,7 @@
       </div>
       <div class="form-group">
         <div class="form-group col-md-10">
-          <label for="name">Name of Student </label>
+          <label for="name">Name of Student: </label>
           <input type="text" class="form-control" placeholder="full name">
         </div>
       </div>
