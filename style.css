@@ -142,7 +142,8 @@ p{
   }
   #sub-title
   {
-    padding: 0 0 1% 0;
+    
+    padding: 0 0 0% 0;
   }
   .testimonial-image{
     width: 10%;
@@ -431,4 +432,12 @@ strong
   #pdf-object{
     width: 450px;
   }
+}
+
+/* timetable,syllabus */
+.d-flex
+{
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
