@@ -142,7 +142,7 @@ p{
   }
   #sub-title
   {
-    padding: 0 0 10% 0;
+    padding: 0 0 1% 0;
   }
   .testimonial-image{
     width: 10%;
@@ -375,6 +375,7 @@ strong
 {
   background-color: red;
   color: white;
+  box-shadow: red 1px  ;
   border:none;
 }
 .page-item>a:focus
@@ -384,6 +385,7 @@ strong
   box-shadow: red 1px 1px 1px 1px;
   border:none;
 }
+
 
 /* feedback notices */
 

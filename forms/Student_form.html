@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <title>Student Form</title>
   </head>
@@ -14,19 +16,22 @@
     <form>
 
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-landmark"></i>
           <label for="Department">Department: </label>
           <input type="text" class="form-control" id="text" placeholder="Bachelor's of ....">
         </div>
       </div>
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-calendar-week"></i>
           <label for="academic">Academic Year: </label>
           <input type="number" class="form-control" placeholder="20XX" maxlength="4" min="2018">
         </div>
       </div>
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-graduation-cap"></i>
           <label for="stu_program">Name of the Program: </label><br>
           <label for="btech"><input type="radio" name="stu_program" id="btech" value="B.Tech">B.Tech</label><br>
           <label for="mtech"><input type="radio" name="stu_program" id="mtech" value="M.Tech">M.Tech</label><br>
@@ -36,6 +41,7 @@
       
       <div class="form-group">
         <div class="form-group col-md-6">
+          <i class="fa-solid fa-book"></i>
           <label for="Semester">Semester: </label>
           <select name="" id="">
             <option selected>Choose...</option>
@@ -51,24 +57,30 @@
         </div>
       </div>
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-section"></i>
           <label for="section">Section: </label>
           <input type="text" class="form-control" placeholder="A,B,C.....">
         </div>
       </div>
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-user"></i>
           <label for="name">Name of Student: </label>
           <input type="text" class="form-control" placeholder="full name">
         </div>
       </div>
       <div class="form-group">
-        <div class="form-group col-md-10">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-universal-access"></i>
           <label for="academic">University Roll Number: </label>
           <input type="number" class="form-control" placeholder="">
         </div>
       </div>
-      <input type="submit" value="submit">
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <input type="submit" value="submit">
+        </div>
     </form>
 
     <!-- Optional JavaScript -->
