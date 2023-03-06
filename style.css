@@ -360,10 +360,16 @@ strong
 
 
 /* Feedback */
+.pagination
+{
+  position: relative;
+  top: -35px;
+}
 .page-item>a
 {
   border:none;
-  color: red;
+  color: #5782BB;
+  background-color: #B9FFF8;
 }
 @media (width<800px) {
   .page-item>a
@@ -373,21 +379,52 @@ strong
 }
 .page-item>a:hover
 {
-  background-color: red;
-  color: white;
-  box-shadow: red 1px  ;
+  background-color: #439A97;
+  color: #ADDDD0;
+  box-shadow: #439A97 1px  ;
   border:none;
 }
 .page-item>a:focus
 {
-  background-color: red;
-  color: white;
-  box-shadow: red 1px 1px 1px 1px;
+  background-color: #E7F6F2;
+  color: #368B85;
+  box-shadow: #E7F6F2 1px 1px 1px 1px;
   border:none;
 }
 
+/* Form */
+.form-body
+{
+  background-color: #439A97;
+}
+.form 
+{
+  position: relative;
+  background-color:#E7F6F2;
+  
+}
+.embed-responsive
+{
+  position: relative;
+  top: -52px;
+}
+.sub
+{
+  background-color: #439A97;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 1em;
+  color: #fff3f3;
+}
+.sub:hover
+{
+  cursor: pointer;
+  background-color:#ef8172;
+  color:#E7F6F2;
+}
 
-/* feedback notices */
+/*  notices */
 
 @media (width<800px) {
   
