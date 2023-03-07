@@ -19,60 +19,60 @@
         <div class="form-group col-md-12">
           <i class="fa-solid fa-building-user"></i>
           <label for="Department">Department: </label>
-          <input type="text" class="form-control" id="text" placeholder="Bachelor's of ....">
+          <input type="text" class="form-control" id="text" placeholder="Bachelor's of ...." required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-solid fa-calendar-days"></i>
           <label for="academic">Academic Year: </label>
-          <input type="number" class="form-control" placeholder="20XX" maxlength="4" min="2018">
+          <input type="number" class="form-control" placeholder="20XX" maxlength="4" min="2018" required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-regular fa-file-lines"></i>
           <label for="academic">Course Name and Code: </label>
-          <input type="text" class="form-control" placeholder="TBC XXX">
+          <input type="text" class="form-control" placeholder="TBC XXX" required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-solid fa-book"></i>
-          <label for="Semester">Semester: </label>
-          <select name="" id="">
-            <option selected>Choose...</option>
-            <option value="">1 Semester</option>
-            <option value="">2 Semester</option>
-            <option value="">3 Semester</option>
-            <option value="">4 Semester</option>
-            <option value="">5 Semester</option>
-            <option value="">6 Semester</option>
-            <option value="">7 Semester</option>
-            <option value="">8 Semester</option>
+          <label for="semester">Semester: </label>
+          <select name="semester" id="semester" required>
+            <option value="" selected disabled>Choose...</option>
+            <option value="1">1 Semester</option>
+            <option value="2">2 Semester</option>
+            <option value="3">3 Semester</option>
+            <option value="4">4 Semester</option>
+            <option value="5">5 Semester</option>
+            <option value="6">6 Semester</option>
+            <option value="7">7 Semester</option>
+            <option value="8">8 Semester</option>
           </select>
         </div>
-      </div>
+      </div>      
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-solid fa-section"></i>
           <label for="section">Section: </label>
-          <input type="text" class="form-control" placeholder="X">
+          <input type="text" class="form-control" placeholder="X" required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-solid fa-person-chalkboard"></i>
           <label for="semester">Name of Faculty Member: </label>
-          <input type="text" class="form-control">
+          <input type="text" class="form-control" required>
         </div>
       </div>
       <div class="form-group">
         <div class="form-group col-md-12">
           <i class="fa-solid fa-chalkboard-user"></i>
           <label for="Semester">Type of course (Core/Elective): </label>
-          <select name="" id="">
-            <option selected>Choose...</option>
+          <select name="" id="" required>
+            <option value="" selected disabled>Choose...</option>
             <option value="">Core</option>
             <option value="">Elective</option>
           </select>
