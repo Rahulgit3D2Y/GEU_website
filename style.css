@@ -517,7 +517,11 @@ strong
 }
 
 /* notices */
-
+.dflex
+{
+  display: flex;
+  gap: 10px;
+}
 .container-fluid.p-3
 {
   background-color: #ECF2FF;
