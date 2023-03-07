@@ -527,7 +527,7 @@ strong
 }
 @media (width<800px) {
   
-  #pdf-iframe{
+  #pdf-object,#pdf-iframe{
     width: 90%;
   }
 }
