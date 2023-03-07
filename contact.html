@@ -116,8 +116,8 @@
       <div class="col col-sm ">
           <form method="POST" action="contactus.php" name="Contact-us">
           <input type="text" name="name" placeholder="Enter your name" required>
-          <input type="email" name="email" placeholder="Enter email address" required>
-          <input type="email" name="Number" placeholder="Enter Mobile Number" required>
+          <input type="email" name="email" placeholder="Enter email address" pattern=".+@gmail.com" required>
+          <input type="number" name="Number" placeholder="Enter Mobile Number" minlength="9" maxlength="14" required>
           <input type="text" name="subject" placeholder="Enter your subject" required>
           <textarea rows="8" name="message" placeholder="Message" required></textarea>
           <input type="submit" class="hero-btn red-btn" value="Send Message" name="Sendmsg" id="Sendmsg">
