@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-html
+.main
 {
-  background-image: linear-gradient(#eeeeee,#dddddd);
+  background: linear-gradient(#82C3EC,#E5D1FA);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -242,9 +242,14 @@ p{
     .carousel-inner
   {height: 300px !important;}
   }
+
+
   /* Footer Section */
   
-  
+  #footer
+  {
+    background-color: #f6eeff;
+  }
   .social-icon {
     margin: 20px 10px;
   }
@@ -363,9 +368,12 @@ p{
 .about-col img{
   width: 100%;
 }
-/*------- Po Page-----*/
+/*------- Po pso Page-----*/
 
-
+.psocolor
+{
+  background-color: rgb(247, 247, 247);
+}
 
 .po-col{
   padding: 30px 2px;
@@ -416,6 +424,20 @@ strong
   border:none;
   color: #730571;
   background-color: #8EC3B0;
+}
+.mview
+{
+  display: none;
+}
+@media (width<550px) {
+  .mview
+  {
+    display: block;
+  }
+  .dview
+  {
+   display: none;
+  }
 }
 @media (width<800px) {
   .page-item>a
@@ -470,8 +492,26 @@ strong
   color:#E7F6F2;
 }
 
-/*  notices */
+/* timetable,syllabus */
+.d-flex
+{
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.tcolor,.scolor
+{
+  
+  background-color: #ECF2FF;
+}
 
+/* iframe  */
+.iframe-body
+{
+  background-color: #E3DFFD;
+  padding: 1%;
+}
 @media (width<800px) {
   
   #pdf-object{
@@ -479,10 +519,16 @@ strong
   }
 }
 
-/* timetable,syllabus */
-.d-flex
+/* notices */
+
+.container-fluid.p-3
 {
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  background-color: #ECF2FF;
+}
+/* curriculum */
+.ccolor
+{
+  background-color: hsla(0, 100%, 97%, 0.911);
+  position: relative;
+  bottom: 8px;
 }
