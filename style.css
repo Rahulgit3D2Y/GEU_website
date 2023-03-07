@@ -4,6 +4,8 @@ body {
     text-align: center;
     background-image: linear-gradient(#eeeeee,#dddddd);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -137,7 +139,7 @@ p{
   /* Title Section */
   
   #title,#sub-title {
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/geuHome.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
