@@ -527,6 +527,9 @@ strong
   display: flex;
   gap: 10px;
 }
+.dflex::-webkit-scrollbar {
+        display: none;
+    }
 .container-fluid.p-3
 {
   background-color: #ECF2FF;
