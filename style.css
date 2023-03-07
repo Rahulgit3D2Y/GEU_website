@@ -87,7 +87,7 @@ p{
 .course-col:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-@media (width<800px) {
+@media (width<900px) {
   .course-card
   {
     flex-direction: column;
@@ -143,7 +143,7 @@ p{
   #sub-title
   {
     
-    padding: 0 0 0% 0;
+    padding: 0 0 5% 0;
   }
   .testimonial-image{
     width: 10%;
@@ -272,7 +272,7 @@ p{
   padding-bottom: 50px;
   display: flex;
 }
-@media (width<1000px) {
+@media (width<900px) {
   .about-us
   {
     flex-direction: column;
@@ -369,10 +369,10 @@ strong
 .page-item>a
 {
   border:none;
-  color: #5782BB;
-  background-color: #B9FFF8;
+  color: #730571;
+  background-color: #8EC3B0;
 }
-@media (width<800px) {
+@media (width<900px) {
   .page-item>a
 {
   width: 95px;
@@ -380,28 +380,28 @@ strong
 }
 .page-item>a:hover
 {
-  background-color: #439A97;
-  color: #ADDDD0;
-  box-shadow: #439A97 1px  ;
+  background-color: #9ED5C5;
+  color: #ffffff;
+  box-shadow: #9ED5C5 1px  ;
   border:none;
 }
 .page-item>a:focus
 {
-  background-color: #E7F6F2;
-  color: #368B85;
-  box-shadow: #E7F6F2 1px 1px 1px 1px;
+  background-color: #BCEAD5;
+  color: #455c5d;
+  box-shadow: #BCEAD5 1px 1px 1px 1px;
   border:none;
 }
 
 /* Form */
 .form-body
 {
-  background-color: #439A97;
+  background-color: #DEF5E5;
 }
 .form 
 {
   position: relative;
-  background-color:#E7F6F2;
+  background-color:#BCEAD5;
   
 }
 .embed-responsive
@@ -416,18 +416,18 @@ strong
   width: 100%;
   border: none;
   border-radius: 1em;
-  color: #fff3f3;
+  color: #4a3fb3;
 }
 .sub:hover
 {
   cursor: pointer;
-  background-color:#ef8172;
+  background-color:#3fb3a2;
   color:#E7F6F2;
 }
 
 /*  notices */
 
-@media (width<800px) {
+@media (width<900px) {
   
   #pdf-object{
     width: 450px;
