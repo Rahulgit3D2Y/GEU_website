@@ -8,9 +8,6 @@
 .main
 {
   background: linear-gradient(#82C3EC,#E5D1FA);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 body {
     font-family: "Montserrat";
@@ -61,13 +58,13 @@ body {
   }
   .logo
   {
-    width: 300px;
+    width: 400px;
     height: auto;
     position: relative;
     right: 40px;
   }
   @media (width<600px) {
-    .logo
+    .logo  
     {
       width: 280px;
       height: auto;
@@ -78,7 +75,7 @@ body {
   .container-fluid>.navbar
   {
     position: relative;
-    bottom: 40px;
+    bottom: 70px;
   }
   
   /* Sections */
