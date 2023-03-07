@@ -69,6 +69,11 @@ body {
       width: 280px;
       height: auto;
     }
+    .container-fluid>.navbar
+    {
+      position: relative;
+      top: -40px;
+    }
   }
   /* Container navbar */
   
