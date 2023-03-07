@@ -1,19 +1,44 @@
+*
+{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
 
-body {
-    font-family: "Montserrat";
-    text-align: center;
-    background-image: linear-gradient(#eeeeee,#dddddd);
+html
+{
+  background-image: linear-gradient(#eeeeee,#dddddd);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+body {
+    font-family: "Montserrat";
+    text-align: center;
   }
   @media (width<900px) {
     body
     {
-      min-width: 450px;
+      min-width: 400px;
       width:100%;
     }
+     .flexbtn
+    {
+      flex-direction: column;
+
+    }
+    .btn-outline-light
+  {
+    width: 50%;
   }
+  }
+  .flexbtn
+  {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
   }
@@ -150,6 +175,10 @@ p{
     background-size: cover;
     position: relative;
     padding:  0% 0% 21% 0%;
+  }
+  #title>.container-fluid
+  {
+    padding: 2%;
   }
   #sub-title
   {
