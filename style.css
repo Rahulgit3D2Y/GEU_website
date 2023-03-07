@@ -251,7 +251,12 @@ p{
   #footer
   {
     background-color: #f6eeff;
-  }
+    
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 4rem;            /* Footer height */
+    }
   .social-icon {
     margin: 20px 10px;
   }
