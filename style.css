@@ -253,10 +253,14 @@ p{
   }
   
   #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom:4rem;    /* Footer height */
   }
   
-  #footer {
+  #footer 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -523,7 +527,7 @@ strong
 .iframe-body
 {
   background-color: #E3DFFD;
-  padding: 1%;
+  padding:0 0 1% 0;
 }
 @media (width<800px) {
   
@@ -537,9 +541,7 @@ strong
   display: flex;
   gap: 10px;
 }
-.dflex::-webkit-scrollbar {
-        display: none;
-    }
+
 .container-fluid.p-3
 {
   background-color: #ECF2FF;
@@ -548,6 +550,5 @@ strong
 .ccolor
 {
   background-color: hsla(0, 100%, 97%, 0.911);
-  position: relative;
-  bottom: 8px;
+  
 }

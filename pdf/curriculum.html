@@ -89,9 +89,8 @@
   </section>
 
   <!-- text -->
-    <div class="container ccolor">
-      <h1 id="pdf-heading"></h1>
-      <div class="d-flex p-3">
+    <div class="d-flex flex-column ccolor">
+      <div class="d-flex" >
         <div class="text-success font-weight-bold">Circular No:
           <span id="circular-number" class="ml-3">geu/ca/03/101</span>
         </div>
@@ -102,13 +101,14 @@
           <a href="" class="btn btn-primary">Download Link</a>
         </div>
       </div>
-      <h2>fees pdf</h2>
-      <div class="iframe-body">
-        <iframe src="fees.pdf" width="800" height="500" id="pdf-object"> </iframe>
+      <div>
+        <h2>fees pdf</h2>
       </div>
-
+    </div>
+    <div class="iframe-body" style="padding-bottom: 4%;">
+      <iframe src="fees.pdf" width="1000" height="1000" id="pdf-iframe"> </iframe>
+    </div>
    </div>
-
   <!-- Footer -->
 
   <footer class="white-section" id="footer">
