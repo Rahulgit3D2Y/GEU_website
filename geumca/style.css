@@ -258,20 +258,44 @@ p{
   
   #footer 
   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     bottom: auto;
     width: 100%;
-    height: auto;            /* Footer height */
+    padding: 20px;
+    height:auto;            /* Footer height */
     background-color: #f6eeff;
     }
   .social-icon {
     margin: 20px 10px;
   }
+.list
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   
-  
+}
+.list>a::after
+{
+  content: "/";
+  padding-left: 5px;
+}
+.list>a:last-of-type::after
+{
+  content: "";
+}
+@media (width<1000px) {
+  .list
+  {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .list>a::after
+  {
+    content: "";
+  }
+}
   
 /* contact us */
 
@@ -558,4 +582,17 @@ strong
 {
   background-color: hsla(0, 100%, 97%, 0.911);
   
+}
+
+
+/* tour */
+#iframe-heading,#iframe-btn
+{
+  width: 1000px;
+}
+@media (width<800px) {
+  #iframe-heading,#iframe-btn
+{
+  width: 100%;
+}
 }

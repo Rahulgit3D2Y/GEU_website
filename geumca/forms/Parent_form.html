@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <form class="form p-3">
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-warehouse"></i>
+          <label for="name">Name of Ward </label>
+          <input type="text" class="form-control" id="name" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-building-columns"></i>
+          <label for="Department">Department: </label>
+          <input type="text" class="form-control" id="Department" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-book"></i>
+          <label for="parent_prog">Program (Degree) </label><br>
+          <label for="parent_prog1"><input type="radio" name="parent_prog" id="parent_prog1" required>B.Tech</label><br>
+          <label for="parent_prog2"><input type="radio" name="parent_prog" id="parent_prog2">M.tech</label><br>
+          <label for="parent_prog3"><input type="radio" name="parent_prog" id="parent_prog3">Ph.D</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-calendar-days"></i>
+          <label for="year">Year: </label>
+          <select name="year" id="year" required>
+            <option value="" selected disabled>Choose...</option>
+            <option value="">1 Year</option>
+            <option value="">2 Year</option>
+            <option value="">3 Year</option>
+            <option value="">4 Year</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12 font-weight-bold">
+          <i class="fa-solid fa-circle-info"></i>
+          <label for="details">Name and Details of Parent's: </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-person"></i>
+          <label for="details">Father Name: </label>
+          <input type="text" class="form-control" id="details" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-briefcase"></i>
+          <label for="details">Father Occupation: </label>
+          <input type="text" class="form-control" id="details" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-person-dress"></i>
+          <label for="details">Mother Name: </label>
+          <input type="text" class="form-control" id="details" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-briefcase"></i>
+          <label for="details">Mother Occupation: </label>
+          <input type="text" class="form-control" id="details" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-address-book"></i>
+          <label for="details">Address: </label>
+          <input type="text" class="form-control" id="details" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-mobile"></i>
+          <label for="details">Mobile Number: </label>
+          <input type="number" class="form-control" id="details" placeholder="+91XXXX"  required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-envelope"></i>
+          <label for="email">Email ID: </label>
+          <input type="email" class="form-control" id="details" placeholder="xxx@gmail.com" pattern=".+@gmail.com" required>
+        </div>
+      </div>
+
+
+
+
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_1">1. Are you satisfied with the overall ambience and infrastructure facilities available? </label><br>
+          <label for="parent_prog_1"><input type="radio" name="parent_prog_1" id="parent_prog_11"  required>Yes</label><br>
+          <label for="parent_prog_12"><input type="radio" name="parent_prog_1" id="parent_prog_12">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_2">2. Do you feel facilities like library, transportation, canteen etc are adequate </label><br>
+          <label for="parent_prog_21"><input type="radio" name="parent_prog_2" id="parent_prog_21" required>Yes</label><br>
+          <label for="parent_prog_22"><input type="radio" name="parent_prog_2" id="parent_prog_22">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_3">3. Do you feel that your ward is physically secured in the campus? </label><br>
+          <label for="parent_prog_31"><input type="radio" name="parent_prog_3" id="parent_prog_31" required>Yes</label><br>
+          <label for="parent_prog_32"><input type="radio" name="parent_prog_3" id="parent_prog_32">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_4">4. Are you satisfied about hostel facilities? (if applicable) </label><br>
+          <label for="parent_prog_41"><input type="radio" name="parent_prog_4" id="parent_prog_41" required>Yes</label><br>
+          <label for="parent_prog_42"><input type="radio" name="parent_prog_4" id="parent_prog_42">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_5">5. Are you satisfied about the cooperation extended by the administrative staff ? </label><br>
+          <label for="parent_prog_51"><input type="radio" name="parent_prog_5" id="parent_prog_51" required>Yes</label><br>
+          <label for="parent_prog_52"><input type="radio" name="parent_prog_5" id="parent_prog_52">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_6">6. Are HOD/faculty members approachable? </label><br>
+          <label for="parent_prog_61"><input type="radio" name="parent_prog_6" id="parent_prog_61" required>Yes</label><br>
+          <label for="parent_prog_62"><input type="radio" name="parent_prog_6" id="parent_prog_62">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_7">7. Do you find up-gradation of Technical/professional skills of your ward? </label><br>
+          <label for="parent_prog_71"><input type="radio" name="parent_prog_7" id="parent_prog_71" required>Yes</label><br>
+          <label for="parent_prog_72"><input type="radio" name="parent_prog_7" id="parent_prog_72">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_8">8. Are you satisfied with the curriculum/teaching learning process? </label><br>
+          <label for="parent_prog_81"><input type="radio" name="parent_prog_8" id="parent_prog_81" required>Yes</label><br>
+          <label for="parent_prog_82"><input type="radio" name="parent_prog_8" id="parent_prog_82">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_9">9. Are you satisfied with examination and evaluation system </label><br>
+          <label for="parent_prog_91"><input type="radio" name="parent_prog_9" id="parent_prog_91" required>Yes</label><br>
+          <label for="parent_prog_92"><input type="radio" name="parent_prog_9" id="parent_prog_92">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_10">10. Are you satisfied with the discipline? </label><br>
+          <label for="parent_prog_101"><input type="radio" name="parent_prog_10" id="parent_prog_101" required>Yes</label><br>
+          <label for="parent_prog_102"><input type="radio" name="parent_prog_10" id="parent_prog_102">No</label><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <label for="parent_prog_11">11. Suggestions about the syllabus (if any): </label></div>
+          <div class="form-group col-md-12">
+            <textarea name="" id="" cols="50" rows="4"style="width:100%;"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <input type="submit" value="submit" class="sub">
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

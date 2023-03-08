@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GEUMCA</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="admin/image/favicon.ico">
   <!-- owl-carousel css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- owl-carousel theme css -->
@@ -27,9 +27,11 @@
 </head>
 
 <body>
-  <div id="page-container">
-    <div id="content-wrap">
-  <section class="colored-section" id="sub-title">
+  <div class="main">
+    <div id="page-container">
+      <div id="content-wrap">
+  
+  <section class="colored-section" id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-xl navbar-dark">
@@ -48,85 +50,31 @@
               <a class="nav-link text-light" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="syllabus.html">Syllabus</a>
+              <a class="nav-link text-white" href="syllabus.php">Syllabus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="timeTable.html">Time Table</a>
+              <a class="nav-link text-white" href="timeTable.php">Time Table</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="notices.html">Notices</a>
+                <a class="nav-link text-white" href="notices.php">Notices</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                <a class="nav-link text-white" href="gallery.php">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="contact.html">Contact us</a>
+                <a class="nav-link text-white" href="contact.php">Contact us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="feedback.html">Feedback</a>
+                <a class="nav-link text-white" href="feedback.php">Feedback</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="poPsoPeo.html">PO PSO AND PEO</a>
+                <a class="nav-link text-white" href="poPsoPeo.php">PO PSO AND PEO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="aboutUs.html">About us</a>
+                <a class="nav-link text-white" href="aboutUs.php">About us</a>
               </li>
           </ul>
 
         </div>
       </nav>
     </div>
-
-      <!-- Title -->
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="text-center fw-bold display-4 mb-5">Notices</h1>
-            </div>    
-        </div>
-      </div>
-  </section>
-
-  <!-- Page Content -->
-
-  <div class="container-fluid p-3">
-    <h2>Check Notices and Updates Here </h2>
-    <div class="dflex flex-column-reverse container" style="max-height: 800px;max-width: 800px;
-    overflow-y: auto; background-color: #E3DFFD;">
-      <a class=" btn-outline-primary" href="pdf/curriculum.html?pdf=fees.pdf">Check for Fees Notice</a>
-      <a class=" btn-outline-primary" href="pdf/curriculum.html?pdf=holiday.pdf">Holiday Notice</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy1</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy2</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy3</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy4</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy5</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy6</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy7</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy8</a>
-      <a class=" btn-outline-primary"  href="pdf/curriculum.html?pdf=holiday.pdf">dummy9</a>
-    </div>
-      
-    
-    
-  </div>
-    </div>
-
-  <!-- Footer -->
-
-  <footer class="white-section" id="footer">
-    <div class="container-fluid">
-      <i class="social-icon fab fa-facebook-f"></i>
-      <i class="social-icon fab fa-twitter"></i>
-      <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
-    </div>
-  </footer>
-  </div>
-
-
-
-  
-
-</body>
-
-</html>

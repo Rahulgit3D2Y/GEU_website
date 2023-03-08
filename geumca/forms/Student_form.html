@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>Student Form</title>
+  </head>
+  <body class="form-body">
+    <form class="form p-3">
+
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-landmark"></i>
+          <label for="Department">Department: </label>
+          <input type="text" class="form-control" id="text" placeholder="Bachelor's of ...." required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-calendar-week"></i>
+          <label for="academic">Academic Year: </label>
+          <input type="number" class="form-control" placeholder="20XX" maxlength="4" min="2018" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <label for="stu_program">Name of the Program: </label><br>
+          <label for="btech"><input type="radio" name="stu_program" id="btech" value="B.Tech" required>B.Tech</label><br>
+          <label for="mtech"><input type="radio" name="stu_program" id="mtech" value="M.Tech">M.Tech</label><br>
+          <label for="phd"><input type="radio" name="stu_program" id="phd" value="Ph.D">Ph.D</label><br>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-book"></i>
+          <label for="semester">Semester: </label>
+          <select name="semester" id="semester" required>
+            <option value="" selected disabled>Choose...</option>
+            <option value="1">1 Semester</option>
+            <option value="2">2 Semester</option>
+            <option value="3">3 Semester</option>
+            <option value="4">4 Semester</option>
+            <option value="5">5 Semester</option>
+            <option value="6">6 Semester</option>
+            <option value="7">7 Semester</option>
+            <option value="8">8 Semester</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-section"></i>
+          <label for="section">Section: </label>
+          <input type="text" class="form-control" placeholder="A,B,C....." required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-user"></i>
+          <label for="name">Name of Student: </label>
+          <input type="text" class="form-control" placeholder="full name" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <i class="fa-solid fa-universal-access"></i>
+          <label for="academic">University Roll Number: </label>
+          <input type="number" class="form-control" placeholder="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-group col-md-12">
+          <input type="submit" value="submit" class="sub">
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
