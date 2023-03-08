@@ -131,18 +131,13 @@
   </div>
   
   <!-- 16:9 aspect ratio -->
-  <div class="container justify-content-center">
-    <div class="embed-responsive embed-responsive-1by1">
-      <iframe src="forms/Student_form.html" id="iframe" name="iframe" width="650" height="100%"  frameborder="0"></iframe>
+    <div class="form-area ">
+      <iframe src="forms/Student_form.html" id="iframe" name="iframe" width="1000"    height="1000" frameborder="0" ></iframe>
     </div>
-  </div>
 </div>
-  <script>
-    function loadForm(formUrl) {
-      document.getElementById("iframe").src = formUrl;
-    }
-  </script>
-    </div>
+
+
+</div>
 
   <!-- Footer -->
 
@@ -158,7 +153,18 @@
 
 
 
+  <script>
+  // Selecting the iframe element
+  var iframe = document.getElementById("iframe");
   
+  // Adjusting the iframe height onload event
+  iframe.onload = function(){
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+  }
+    function loadForm(formUrl) {
+      document.getElementById("iframe").src = formUrl;
+    }
+  </script>
 
 </body>
 

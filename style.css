@@ -431,11 +431,18 @@ strong
 
 
 /* Feedback */
-.pagination
+
+
+.form-area
+{
+  position: relative;
+  bottom: 20px;
+}
+/* .pagination
 {
   position: relative;
   top: -35px;
-}
+} */
 .page-item>a
 {
   border:none;
@@ -488,11 +495,11 @@ strong
   background-color:#BCEAD5;
   
 }
-.embed-responsive
+/* .embed-responsive
 {
   position: relative;
   top: -52px;
-}
+} */
 .sub
 {
   background-color: #439A97;
@@ -531,7 +538,7 @@ strong
 }
 @media (width<800px) {
   
-  #pdf-object,#pdf-iframe{
+  #pdf-object,#pdf-iframe,#iframe{
     width: 90%;
   }
 }
