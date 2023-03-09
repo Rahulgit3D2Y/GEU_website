@@ -43,7 +43,7 @@ body {
   p {
     color: #8f8f8f;
   }
-  
+
   /* Headings */
   
   .big-heading {
@@ -93,6 +93,33 @@ body {
   .white-section {
     background-color: #fff;
   }
+
+  /* Sweeper */
+  /* .swiper{
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .swiper-slide img{
+    width: 100%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+  }
+  
+  .swiper .swiper-pagination-bullet-active{
+    background: white;
+  } */
+
+  
   /*---------- course --------*/
 
 .course-card

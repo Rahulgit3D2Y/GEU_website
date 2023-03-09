@@ -26,11 +26,11 @@
 
   </section>
 
-  <!--images Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide"data-interval="3000" data-ride="carousel">
+ <!--images Carousel active class added using Jquery -->
+ <div id="carouselExampleIndicators" class="carousel slide"data-interval="3000" data-ride="carousel">
     
-    <div class="carousel-inner my-5">
-      <div class="carousel-item active">
+    <div class="carousel-inner my-5" id="myCarousel">
+      <div class="carousel-item">
         <img class="d-block w-100" src="https://source.unsplash.com/1200x800/?city" alt="First slide">
       </div>
       <div class="carousel-item">
@@ -55,8 +55,11 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+  <!-- jquery for adding the active class -->
+  <script>$('#myCarousel').find('.carousel-item').first().addClass('active');</script>
 
 
+  
 <!-- Course offered -->
  
 <section >
