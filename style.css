@@ -262,13 +262,13 @@ p{
     }
   }
   /* carousel */
-#myCarousel
+.course-inner
   {
     width:100%; 
     height: 600px !important;
   }
   @media (width<800px) {
-    #myCarousel
+    .course-inner
   {height: 300px !important;}
   }
 
