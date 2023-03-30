@@ -1,0 +1,13 @@
+[22-Mar-2023 10:10:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[22-Mar-2023 11:25:09 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[22-Mar-2023 11:25:09 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[22-Mar-2023 11:26:32 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[22-Mar-2023 17:57:25 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:38:36 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Resource temporarily unavailable in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:43:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:49:28 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:49:28 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:49:28 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:50:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:50:14 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7
+[27-Mar-2023 06:50:31 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home3/geumcain/public_html/admin/include/config.php on line 7

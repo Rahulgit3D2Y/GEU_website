@@ -1,0 +1,5 @@
+ /*
+ CREATE TABLE `carousel` (`carousel_id` INT(20) NOT NULL AUTO_INCREMENT , `carousel_file` VARCHAR(100) NOT NULL , `carousel_display` VARCHAR(10) NOT NULL, `carousel_status` VARCHAR(10) NOT NULL  , `carousel_createdby` VARCHAR(20) NOT NULL , `carousel_createdtime` VARCHAR(30) NOT NULL , `carousel_updatedby` VARCHAR(20) NOT NULL , `carousel_updatedtime` VARCHAR(30) NOT NULL , `carousel_disableby` VARCHAR(20) NOT NULL , `carousel_disabletime` VARCHAR(30) NOT NULL , `carousel_disablereason` VARCHAR(100) NOT NULL , `carousel_displaycloseby` VARCHAR(20) NOT NULL , `carousel_displayclosetime` VARCHAR(30) NOT NULL , PRIMARY KEY (`carousel_id`)) ENGINE = InnoDB;
+ALTER TABLE `carousel` ADD `carousel_filealt` VARCHAR(100) NOT NULL AFTER `carousel_file`, ADD `carousel_filelink` VARCHAR(500) NOT NULL AFTER `carousel_filealt`;
+ALTER TABLE `carousel` ADD `carousel_session` VARCHAR(20) NOT NULL AFTER `carousel_id`;
+ */
